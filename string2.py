@@ -1,0 +1,9 @@
+str1 = "apple"
+str2 = "banana"
+
+if str1 == str2:
+    print("Both strings are equal")
+elif str1 < str2:
+    print(f'"{str1}" comes before "{str2}"')
+else:
+    print(f'"{str1}" comes after "{str2}"')
